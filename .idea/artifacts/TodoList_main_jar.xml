@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TodoList.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TodoList_main_jar</output-path>
+    <root id="archive" name="TodoList.main.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resource/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="TodoList.main" />
+      <element id="extracted-dir" path="D:/gradle-7.4.1/user_home/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gradle-7.4.1/user_home/caches/modules-2/files-2.1/net.sf.json-lib/json-lib/2.4/807b35e17589adc402843acb733211da42393566/json-lib-2.4-jdk13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gradle-7.4.1/user_home/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gradle-7.4.1/user_home/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gradle-7.4.1/user_home/caches/modules-2/files-2.1/commons-lang/commons-lang/2.5/b0236b252e86419eef20c31a44579d2aee2f0a69/commons-lang-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gradle-7.4.1/user_home/caches/modules-2/files-2.1/net.sf.ezmorph/ezmorph/1.0.6/1e55d2a0253ea37745d33062852fd2c90027432/ezmorph-1.0.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

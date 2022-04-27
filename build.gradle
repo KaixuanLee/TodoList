@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'org.todoList:todoList:1.0'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.sf.json-lib:json-lib:2.4:jdk13'
+
+}
+
+task downloadJars(type:Copy){
+    from  configurations.runtimeClasspath
+    into 'src/lib'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'TodoList'
+        )
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
